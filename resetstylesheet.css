@@ -23,6 +23,7 @@ h4,
 h5,
 h6 {
   font-size: 100%;
+  font-weight: normal;
 }
 
 ​input,
@@ -41,3 +42,7 @@ code {
 ul {
   list-style: none;
 }
+
+/* footer{
+    font-weight: bold;
+} */

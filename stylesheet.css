@@ -1,14 +1,15 @@
 :root {
---darkgreen: #404b48;
---bluegrey: #799ead;
---light: #c3f1bd;
+--textcolor: #f7f7f7;
+--bluegrey: #6094a8;
+--light: #92cf89;
 }
 ::selection {
-background-color:var(--darkgreen);
+background-color:var(--textcolor);
 color: var(--bluegrey);
 }
 
 body {
+    color: var(--textcolor);
     font-size: 130%;
     font-family: OCR A, 'Courier New', Courier, monospace;
     background-image: linear-gradient( 45deg,
@@ -17,7 +18,6 @@ body {
 
 header h1{
     font-size: 300%;
-    font-weight: bold;
     padding: 20px;
     text-align: center;
 }
@@ -30,6 +30,10 @@ header nav {
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-flex;
     padding: 20px;
+}
+main { 
+    display: flex;
+
 }
