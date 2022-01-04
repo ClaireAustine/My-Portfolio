@@ -1,0 +1,21 @@
+:root {
+--darkgreen: #404b48;
+--bluegrey: #799ead;
+--light: #c3f1bd;
+}
+::selection {
+background-color:var(--darkgreen);
+color: var(--bluegrey);
+}
+
+body {
+    font-size: 130%;
+    font-family: OCR A, 'Courier New', Courier, monospace;
+}
+
+header {
+
+}
+h1{
+    
+}
