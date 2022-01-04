@@ -1,2 +1,1 @@
-# My-Portfolio
-My Portfolio Website
+# Claire Koke's Portfolio
