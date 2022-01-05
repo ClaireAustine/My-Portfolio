@@ -36,6 +36,11 @@ header nav ul li {
     padding: 20px;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .grid {
     display: grid;
     grid-row: 1 / span 2;
@@ -49,19 +54,32 @@ h3{
     -webkit-text-stroke-color: black;
 }
 
+#coding-projects-title{
+    padding: 20px;
+}
+#project1title,
+#project2title,
+#project3title,
+#project4title{
+    position:relative;
+    margin: -20px;
+}
+
+
 .placeholder-images{
     flex: 0 1 100%;
     max-width: 100%;
+    position: static;
 }
 
-#project1{
+.project1{
     width: 900px;
     height: 600px;
 }
 
-#project2,
-#project3,
-#project4 {
+.project2,
+.project3,
+.project4 {
     width: 600px;
     height: 400px;
 }
