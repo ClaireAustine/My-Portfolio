@@ -41,11 +41,6 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
 }
-.grid {
-    display: grid;
-    grid-row: 1 / span 2;
-    grid-column: 1 / span 2;
-}
 
 h3{
     font-size: 150%;
@@ -57,32 +52,48 @@ h3{
 #coding-projects-title{
     padding: 20px;
 }
+
 #project1title,
 #project2title,
 #project3title,
 #project4title{
     position:relative;
-    margin: -20px;
+    margin: 0px 0px -20px 0px;
 }
 
 
-.placeholder-images{
-    flex: 0 1 100%;
-    max-width: 100%;
-    position: static;
-}
+.placeholder-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .project1 {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .project1 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .second {
+    width: 50%;
+    height: 50%;
+    margin-left: 3%;
+  }
+  
+  .project2 img {
+    width: 25%;
+    height: 25%;
+  }
 
 .project1{
     width: 900px;
     height: 600px;
 }
 
-.project2,
-.project3,
-.project4 {
-    width: 600px;
-    height: 400px;
-}
 
 @media screen and (min-width: 768px) {
     .placeholder-images {
