@@ -25,6 +25,13 @@ h6 {
   font-weight: normal;
 }
 
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color: white;
+    text-decoration: none;
+}
 
 ​ol,
 ul {

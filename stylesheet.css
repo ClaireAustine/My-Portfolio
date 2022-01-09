@@ -2,6 +2,8 @@
 --textcolor: #f7f7f7;
 --bluegrey: #6094a8;
 --light: #92cf89;
+--accent: rgb(255, 217, 0);
+
 }
 ::selection {
 background-color:var(--textcolor);
@@ -26,17 +28,21 @@ header h1{
 
 header #page-title-caption {
     font-size: 150%;
-    padding-left: 60px;
+    margin-left: 60px;
+    border: var(--accent);
+    border-radius: 15%;
+
 
 }
 
 header nav {
     text-align: right;
+    
 }
 
 header nav ul li {
     display: inline-flex;
-    padding: 20px;
+    margin:  20px 20px 0px 0px;
 }
 
 main{
@@ -49,13 +55,13 @@ main{
 }
 
 h3{
-    font-size: 150%;
-    text-align: center;
+    font-size: 200%;
+    margin: 10px 50px 10px 0px;
 }
 
 
 #coding-projects-title{
-    padding: 15px 0px 5px 0px;
+    text-align: right;
 }
 
 .placeholder-images {
@@ -85,7 +91,7 @@ h3{
   
   .project1 img {
     width: 100%;
-    max-height: 100%;
+    height: 100%;
   }
   
   .second {
@@ -99,6 +105,17 @@ h3{
   .project4 img{
       margin: 0px 30px 30px 0px;
   }
+
+.my-info{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+footer{
+    text-align: center;
+}
 
 
 @media screen and (min-width: 768px) {
